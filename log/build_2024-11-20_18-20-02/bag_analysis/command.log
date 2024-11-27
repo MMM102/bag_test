@@ -1,0 +1,6 @@
+Invoking command in '/home/macar/ros2/build/bag_analysis': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/macar/ros2/src/bag_analysis -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/macar/ros2/install/bag_analysis
+Invoked command in '/home/macar/ros2/build/bag_analysis' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/macar/ros2/src/bag_analysis -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/macar/ros2/install/bag_analysis
+Invoking command in '/home/macar/ros2/build/bag_analysis': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/macar/ros2/build/bag_analysis -- -j12 -l12
+Invoked command in '/home/macar/ros2/build/bag_analysis' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/macar/ros2/build/bag_analysis -- -j12 -l12
+Invoking command in '/home/macar/ros2/build/bag_analysis': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/macar/ros2/build/bag_analysis
+Invoked command in '/home/macar/ros2/build/bag_analysis' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/macar/ros2/build/bag_analysis

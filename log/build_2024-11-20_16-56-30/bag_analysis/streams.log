@@ -1,0 +1,80 @@
+[0.010s] Invoking command in '/home/macar/ros2/build/bag_analysis': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/macar/ros2/src/bag_analysis -DCMAKE_INSTALL_PREFIX=/home/macar/ros2/install/bag_analysis
+[0.022s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.149s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.155s] -- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)
+[0.181s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.189s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.200s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.214s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.356s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.357s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.481s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.636s] -- Found rosbag2_cpp: 0.22.7 (/opt/ros/iron/share/rosbag2_cpp/cmake)
+[0.665s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[0.869s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[0.932s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.932s] -- Configured cppcheck include dirs: 
+[0.932s] -- Configured cppcheck exclude dirs and/or files: 
+[0.932s] -- Added test 'lint_cmake' to check CMake code style
+[0.933s] -- Added test 'uncrustify' to check C / C++ code style
+[0.933s] -- Configured uncrustify additional arguments: 
+[0.933s] -- Added test 'xmllint' to check XML markup files
+[0.934s] -- Configuring done
+[0.947s] -- Generating done
+[0.948s] -- Build files have been written to: /home/macar/ros2/build/bag_analysis
+[0.956s] Invoked command in '/home/macar/ros2/build/bag_analysis' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/macar/ros2/src/bag_analysis -DCMAKE_INSTALL_PREFIX=/home/macar/ros2/install/bag_analysis
+[0.958s] Invoking command in '/home/macar/ros2/build/bag_analysis': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/macar/ros2/build/bag_analysis -- -j12 -l12
+[1.013s] [ 50%] [32mBuilding CXX object CMakeFiles/experiment_3_analysis.dir/src/experiment_3_analysis.cpp.o[0m
+[1.938s] [01m[K/home/macar/ros2/src/bag_analysis/src/experiment_3_analysis.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.938s] [01m[K/home/macar/ros2/src/bag_analysis/src/experiment_3_analysis.cpp:30:17:[m[K [01;31m[Kerror: [m[K‘[01m[KTime[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[Kbuiltin_interfaces::msg::Time[m[K’?
+[1.938s]    30 |         rclcpp::[01;31m[KTime[m[K first_msg_time(0, 0);
+[1.938s]       |                 [01;31m[K^~~~[m[K
+[1.938s] In file included from [01m[K/opt/ros/iron/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:20[m[K,
+[1.938s]                  from [01m[K/opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:20[m[K,
+[1.938s]                  from [01m[K/opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+[1.939s]                  from [01m[K/home/macar/ros2/src/bag_analysis/src/experiment_3_analysis.cpp:7[m[K:
+[1.939s] [01m[K/opt/ros/iron/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:136:7:[m[K [01;36m[Knote: [m[K‘[01m[Kbuiltin_interfaces::msg::Time[m[K’ declared here
+[1.939s]   136 | using [01;36m[KTime[m[K =
+[1.939s]       |       [01;36m[K^~~~[m[K
+[1.939s] [01m[K/home/macar/ros2/src/bag_analysis/src/experiment_3_analysis.cpp:31:17:[m[K [01;31m[Kerror: [m[K‘[01m[KTime[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[Kbuiltin_interfaces::msg::Time[m[K’?
+[1.939s]    31 |         rclcpp::[01;31m[KTime[m[K last_msg_time(0, 0);
+[1.939s]       |                 [01;31m[K^~~~[m[K
+[1.939s] In file included from [01m[K/opt/ros/iron/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:20[m[K,
+[1.939s]                  from [01m[K/opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:20[m[K,
+[1.939s]                  from [01m[K/opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+[1.939s]                  from [01m[K/home/macar/ros2/src/bag_analysis/src/experiment_3_analysis.cpp:7[m[K:
+[1.939s] [01m[K/opt/ros/iron/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:136:7:[m[K [01;36m[Knote: [m[K‘[01m[Kbuiltin_interfaces::msg::Time[m[K’ declared here
+[1.939s]   136 | using [01;36m[KTime[m[K =
+[1.939s]       |       [01;36m[K^~~~[m[K
+[1.943s] [01m[K/home/macar/ros2/src/bag_analysis/src/experiment_3_analysis.cpp:49:25:[m[K [01;31m[Kerror: [m[K‘[01m[KTime[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[Kbuiltin_interfaces::msg::Time[m[K’?
+[1.943s]    49 |                 rclcpp::[01;31m[KTime[m[K current_time(imu_msg->header.stamp);
+[1.943s]       |                         [01;31m[K^~~~[m[K
+[1.944s] In file included from [01m[K/opt/ros/iron/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:20[m[K,
+[1.944s]                  from [01m[K/opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:20[m[K,
+[1.944s]                  from [01m[K/opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+[1.944s]                  from [01m[K/home/macar/ros2/src/bag_analysis/src/experiment_3_analysis.cpp:7[m[K:
+[1.944s] [01m[K/opt/ros/iron/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:136:7:[m[K [01;36m[Knote: [m[K‘[01m[Kbuiltin_interfaces::msg::Time[m[K’ declared here
+[1.944s]   136 | using [01;36m[KTime[m[K =
+[1.944s]       |       [01;36m[K^~~~[m[K
+[1.946s] [01m[K/home/macar/ros2/src/bag_analysis/src/experiment_3_analysis.cpp:51:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kfirst_msg_time[m[K’ was not declared in this scope
+[1.946s]    51 |                     [01;31m[Kfirst_msg_time[m[K = current_time;
+[1.946s]       |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.949s] [01m[K/home/macar/ros2/src/bag_analysis/src/experiment_3_analysis.cpp:51:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_time[m[K’ was not declared in this scope
+[1.949s]    51 |                     first_msg_time = [01;31m[Kcurrent_time[m[K;
+[1.949s]       |                                      [01;31m[K^~~~~~~~~~~~[m[K
+[1.951s] [01m[K/home/macar/ros2/src/bag_analysis/src/experiment_3_analysis.cpp:53:17:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_msg_time[m[K’ was not declared in this scope
+[1.952s]    53 |                 [01;31m[Klast_msg_time[m[K = current_time;
+[1.952s]       |                 [01;31m[K^~~~~~~~~~~~~[m[K
+[1.954s] [01m[K/home/macar/ros2/src/bag_analysis/src/experiment_3_analysis.cpp:53:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_time[m[K’ was not declared in this scope
+[1.954s]    53 |                 last_msg_time = [01;31m[Kcurrent_time[m[K;
+[1.954s]       |                                 [01;31m[K^~~~~~~~~~~~[m[K
+[1.956s] [01m[K/home/macar/ros2/src/bag_analysis/src/experiment_3_analysis.cpp:61:23:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_msg_time[m[K’ was not declared in this scope
+[1.957s]    61 |         total_time = ([01;31m[Klast_msg_time[m[K - first_msg_time).seconds();
+[1.957s]       |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[1.959s] [01m[K/home/macar/ros2/src/bag_analysis/src/experiment_3_analysis.cpp:61:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kfirst_msg_time[m[K’ was not declared in this scope
+[1.959s]    61 |         total_time = (last_msg_time - [01;31m[Kfirst_msg_time[m[K).seconds();
+[1.959s]       |                                       [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.233s] gmake[2]: *** [CMakeFiles/experiment_3_analysis.dir/build.make:76: CMakeFiles/experiment_3_analysis.dir/src/experiment_3_analysis.cpp.o] Error 1
+[2.233s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/experiment_3_analysis.dir/all] Error 2
+[2.234s] gmake: *** [Makefile:146: all] Error 2
+[2.237s] Invoked command in '/home/macar/ros2/build/bag_analysis' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/macar/ros2/build/bag_analysis -- -j12 -l12

@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.000143] (bag_analysis) JobQueued: {'identifier': 'bag_analysis', 'dependencies': OrderedDict()}
+[0.000170] (bag_analysis) JobStarted: {'identifier': 'bag_analysis'}
+[0.008124] (bag_analysis) JobProgress: {'identifier': 'bag_analysis', 'progress': 'cmake'}
+[0.008654] (bag_analysis) JobProgress: {'identifier': 'bag_analysis', 'progress': 'build'}
+[0.009320] (bag_analysis) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/macar/ros2/build/bag_analysis', '--', '-j12', '-l12'], 'cwd': '/home/macar/ros2/build/bag_analysis', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'macar'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/macar'), ('OLDPWD', '/home/macar/ros2/src/bag_analysis/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '16561'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'macar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'macar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/macar:@/tmp/.ICE-unix/1073,unix/macar:/tmp/.ICE-unix/1073'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/37c75f98_3964_4bbe_b00a_6ef01307a5da'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7EIGX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.203'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/macar/ros2/build/bag_analysis'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.037254] (bag_analysis) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.099294] (-) TimerEvent: {}
+[0.160071] (bag_analysis) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.166177] (bag_analysis) StdoutLine: {'line': b'-- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[0.192419] (bag_analysis) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.199403] (-) TimerEvent: {}
+[0.200006] (bag_analysis) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.211326] (bag_analysis) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.225545] (bag_analysis) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299523] (-) TimerEvent: {}
+[0.369361] (bag_analysis) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[0.370232] (bag_analysis) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399642] (-) TimerEvent: {}
+[0.494130] (bag_analysis) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.499765] (-) TimerEvent: {}
+[0.600270] (-) TimerEvent: {}
+[0.648505] (bag_analysis) StdoutLine: {'line': b'-- Found rosbag2_cpp: 0.22.7 (/opt/ros/iron/share/rosbag2_cpp/cmake)\n'}
+[0.676338] (bag_analysis) StdoutLine: {'line': b'-- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)\n'}
+[0.700388] (-) TimerEvent: {}
+[0.800692] (-) TimerEvent: {}
+[0.871622] (bag_analysis) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[0.900818] (-) TimerEvent: {}
+[0.933335] (bag_analysis) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.933546] (bag_analysis) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.933596] (bag_analysis) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.933886] (bag_analysis) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.934809] (bag_analysis) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.935027] (bag_analysis) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.935303] (bag_analysis) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.935942] (bag_analysis) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.947132] (bag_analysis) StdoutLine: {'line': b'-- Generating done\n'}
+[0.948727] (bag_analysis) StdoutLine: {'line': b'-- Build files have been written to: /home/macar/ros2/build/bag_analysis\n'}
+[0.976618] (bag_analysis) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target experiment_3_analysis\x1b[0m\n'}
+[0.992402] (bag_analysis) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/experiment_3_analysis.dir/src/experiment_3_analysis.cpp.o\x1b[0m\n'}
+[1.000954] (-) TimerEvent: {}
+[1.101328] (-) TimerEvent: {}
+[1.201691] (-) TimerEvent: {}
+[1.302071] (-) TimerEvent: {}
+[1.402471] (-) TimerEvent: {}
+[1.502842] (-) TimerEvent: {}
+[1.603220] (-) TimerEvent: {}
+[1.703607] (-) TimerEvent: {}
+[1.803997] (-) TimerEvent: {}
+[1.904398] (-) TimerEvent: {}
+[2.004771] (-) TimerEvent: {}
+[2.105157] (-) TimerEvent: {}
+[2.205518] (-) TimerEvent: {}
+[2.209255] (bag_analysis) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable experiment_3_analysis\x1b[0m\n'}
+[2.305673] (-) TimerEvent: {}
+[2.377268] (bag_analysis) StdoutLine: {'line': b'[100%] Built target experiment_3_analysis\n'}
+[2.389977] (bag_analysis) CommandEnded: {'returncode': 0}
+[2.405800] (-) TimerEvent: {}
+[2.418450] (bag_analysis) JobProgress: {'identifier': 'bag_analysis', 'progress': 'install'}
+[2.429155] (bag_analysis) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/macar/ros2/build/bag_analysis'], 'cwd': '/home/macar/ros2/build/bag_analysis', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'macar'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/macar'), ('OLDPWD', '/home/macar/ros2/src/bag_analysis/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '16561'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'macar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'macar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/macar:@/tmp/.ICE-unix/1073,unix/macar:/tmp/.ICE-unix/1073'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/37c75f98_3964_4bbe_b00a_6ef01307a5da'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7EIGX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.203'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/macar/ros2/build/bag_analysis'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[2.436702] (bag_analysis) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.437095] (bag_analysis) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.437353] (bag_analysis) StdoutLine: {'line': b'-- Up-to-date symlink: /home/macar/ros2/install/bag_analysis/lib/bag_analysis/experiment_3_analysis\n'}
+[2.437560] (bag_analysis) StdoutLine: {'line': b'-- Up-to-date symlink: /home/macar/ros2/install/bag_analysis/share/ament_index/resource_index/package_run_dependencies/bag_analysis\n'}
+[2.437764] (bag_analysis) StdoutLine: {'line': b'-- Up-to-date symlink: /home/macar/ros2/install/bag_analysis/share/ament_index/resource_index/parent_prefix_path/bag_analysis\n'}
+[2.437868] (bag_analysis) StdoutLine: {'line': b'-- Up-to-date symlink: /home/macar/ros2/install/bag_analysis/share/bag_analysis/environment/ament_prefix_path.sh\n'}
+[2.438054] (bag_analysis) StdoutLine: {'line': b'-- Up-to-date symlink: /home/macar/ros2/install/bag_analysis/share/bag_analysis/environment/ament_prefix_path.dsv\n'}
+[2.438243] (bag_analysis) StdoutLine: {'line': b'-- Up-to-date symlink: /home/macar/ros2/install/bag_analysis/share/bag_analysis/environment/path.sh\n'}
+[2.438418] (bag_analysis) StdoutLine: {'line': b'-- Up-to-date symlink: /home/macar/ros2/install/bag_analysis/share/bag_analysis/environment/path.dsv\n'}
+[2.438611] (bag_analysis) StdoutLine: {'line': b'-- Up-to-date symlink: /home/macar/ros2/install/bag_analysis/share/bag_analysis/local_setup.bash\n'}
+[2.438793] (bag_analysis) StdoutLine: {'line': b'-- Up-to-date symlink: /home/macar/ros2/install/bag_analysis/share/bag_analysis/local_setup.sh\n'}
+[2.438920] (bag_analysis) StdoutLine: {'line': b'-- Up-to-date symlink: /home/macar/ros2/install/bag_analysis/share/bag_analysis/local_setup.zsh\n'}
+[2.439005] (bag_analysis) StdoutLine: {'line': b'-- Up-to-date symlink: /home/macar/ros2/install/bag_analysis/share/bag_analysis/local_setup.dsv\n'}
+[2.439094] (bag_analysis) StdoutLine: {'line': b'-- Symlinking: /home/macar/ros2/install/bag_analysis/share/bag_analysis/package.dsv\n'}
+[2.450458] (bag_analysis) StdoutLine: {'line': b'-- Up-to-date symlink: /home/macar/ros2/install/bag_analysis/share/ament_index/resource_index/packages/bag_analysis\n'}
+[2.450855] (bag_analysis) StdoutLine: {'line': b'-- Up-to-date symlink: /home/macar/ros2/install/bag_analysis/share/bag_analysis/cmake/bag_analysisConfig.cmake\n'}
+[2.450981] (bag_analysis) StdoutLine: {'line': b'-- Up-to-date symlink: /home/macar/ros2/install/bag_analysis/share/bag_analysis/cmake/bag_analysisConfig-version.cmake\n'}
+[2.451130] (bag_analysis) StdoutLine: {'line': b'-- Up-to-date symlink: /home/macar/ros2/install/bag_analysis/share/bag_analysis/package.xml\n'}
+[2.453933] (bag_analysis) CommandEnded: {'returncode': 0}
+[2.497125] (bag_analysis) JobEnded: {'identifier': 'bag_analysis', 'rc': 0}
+[2.498270] (-) EventReactorShutdown: {}

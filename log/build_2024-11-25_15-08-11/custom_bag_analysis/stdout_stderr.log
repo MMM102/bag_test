@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/bag_analyzer.dir/src/bag_analyzer.cpp.o[0m
+[01m[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/Image.hpp: No such file or directory
+   10 | #include [01;31m[K"sensor_msgs/msg/Image.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/bag_analyzer.dir/build.make:76: CMakeFiles/bag_analyzer.dir/src/bag_analyzer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bag_analyzer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

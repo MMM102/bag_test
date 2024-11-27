@@ -1,0 +1,11 @@
+-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+[31mCMake Error at /opt/ros/iron/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+  ament_target_dependencies() the passed package name 'rosbag2_cpp' was not
+  found before
+Call Stack (most recent call first):
+  CMakeLists.txt:15 (ament_target_dependencies)
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/macar/ros2/build/bag_analysis/CMakeFiles/CMakeOutput.log".

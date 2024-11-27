@@ -1,0 +1,77 @@
+[0.013s] Invoking command in '/home/macar/ros2/build/custom_bag_analysis': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/macar/ros2/build/custom_bag_analysis -- -j12 -l12
+[0.067s] [ 50%] [32mBuilding CXX object CMakeFiles/bag_analyzer.dir/src/bag_analyzer.cpp.o[0m
+[3.018s] [01m[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:14:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kchrono_leterals[m[K’ is not a namespace-name
+[3.018s]    14 | using namespace std::[01;31m[Kchrono_leterals[m[K;
+[3.018s]       |                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.018s] [01m[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:16:29:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpsp[m[K’ has not been declared
+[3.018s]    16 | class PlaybackNode : public [01;31m[Krclcpsp[m[K::Node
+[3.018s]       |                             [01;31m[K^~~~~~~[m[K
+[3.018s] [01m[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:16:38:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KNode[m[K’
+[3.019s]    16 | class PlaybackNode : public rclcpsp::[01;31m[KNode[m[K
+[3.019s]       |                                      [01;31m[K^~~~[m[K
+[3.019s] [01m[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:18:3:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+[3.019s]    18 |   [01;31m[Kpublic[m[K:
+[3.019s]       |   [01;31m[K^~~~~~[m[K
+[3.019s] [01m[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:18:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[3.019s] [01m[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:17:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[3.019s]    17 | [01;36m[K{[m[K
+[3.019s]       | [01;36m[K^[m[K
+[3.019s] [01m[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:29:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+[3.019s]    29 |   [01;31m[Kprivate[m[K:
+[3.019s]       |   [01;31m[K^~~~~~~[m[K
+[3.022s] [01m[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:51:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kzed[m[K’ was not declared in this scope
+[3.022s]    51 |     rclcpp::Publisher<[01;31m[Kzed[m[K::msg::Imu>::SharedPtr publisher_;
+[3.022s]       |                       [01;31m[K^~~[m[K
+[3.023s] [01m[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:51:36:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.023s]    51 |     rclcpp::Publisher<zed::msg::Imu[01;31m[K>[m[K::SharedPtr publisher_;
+[3.023s]       |                                    [01;31m[K^[m[K
+[3.023s] [01m[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:51:49:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kpublisher_[m[K’
+[3.023s]    51 |     rclcpp::Publisher<zed::msg::Imu>::SharedPtr [01;31m[Kpublisher_[m[K;
+[3.023s]       |                                                 [01;31m[K^~~~~~~~~~[m[K
+[3.025s] [01m[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:53:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kzed[m[K’ was not declared in this scope
+[3.025s]    53 |     rclcpp::Serialization<[01;31m[Kzed[m[K::msg::Imu> serialization_;
+[3.025s]       |                           [01;31m[K^~~[m[K
+[3.025s] [01m[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:53:40:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.025s]    53 |     rclcpp::Serialization<zed::msg::Imu[01;31m[K>[m[K serialization_;
+[3.025s]       |                                        [01;31m[K^[m[K
+[3.032s] [01m[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:55:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[3.032s]    55 | [01;31m[K}[m[K
+[3.032s]       | [01;31m[K^[m[K
+[3.036s] [01m[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.036s] [01m[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:66:15:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin(std::shared_ptr<PlaybackNode>)[m[K’
+[3.036s]    66 |   [01;31m[Krclcpp::spin(std::make_shared<PlaybackNode>(argv[1]))[m[K;
+[3.036s]       |   [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.036s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[3.036s]                  from [01m[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:7[m[K:
+[3.037s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:46:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+[3.037s]    46 | [01;36m[Kspin[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[3.037s]       | [01;36m[K^~~~[m[K
+[3.037s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:46:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[KPlaybackNode[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::node_interfaces::NodeBaseInterface[m[K>[m[K’
+[3.037s]    46 | spin([01;36m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr[m[K);
+[3.037s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.037s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:50:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)[m[K’
+[3.037s]    50 | [01;36m[Kspin[m[K(rclcpp::Node::SharedPtr node_ptr);
+[3.037s]       | [01;36m[K^~~~[m[K
+[3.037s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:50:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[KPlaybackNode[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::Node[m[K>[m[K’
+[3.037s]    50 | spin([01;36m[Krclcpp::Node::SharedPtr node_ptr[m[K);
+[3.037s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.590s] In file included from [01m[K/usr/include/c++/11/unordered_map:42[m[K,
+[3.590s]                  from [01m[K/usr/include/c++/11/functional:61[m[K,
+[3.590s]                  from [01m[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:2[m[K:
+[3.590s] /usr/include/c++/11/ext/aligned_buffer.h: In instantiation of ‘[01m[Kstruct __gnu_cxx::__aligned_buffer<PlaybackNode>[m[K’:
+[3.590s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:506:35:[m[K   required from ‘[01m[Kclass std::_Sp_counted_ptr_inplace<PlaybackNode, std::allocator<PlaybackNode>, __gnu_cxx::_S_atomic>::_Impl[m[K’
+[3.590s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:567:13:[m[K   required from ‘[01m[Kclass std::_Sp_counted_ptr_inplace<PlaybackNode, std::allocator<PlaybackNode>, __gnu_cxx::_S_atomic>[m[K’
+[3.590s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:647:43:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = PlaybackNode; _Alloc = std::allocator<PlaybackNode>; _Args = {char*&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[3.590s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<PlaybackNode>; _Args = {char*&}; _Tp = PlaybackNode; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[3.591s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<PlaybackNode>; _Args = {char*&}; _Tp = PlaybackNode][m[K’
+[3.591s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = PlaybackNode; _Alloc = std::allocator<PlaybackNode>; _Args = {char*&}][m[K’
+[3.591s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = PlaybackNode; _Args = {char*&}][m[K’
+[3.591s] [01m[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:66:46:[m[K   required from here
+[3.591s] [01m[K/usr/include/c++/11/ext/aligned_buffer.h:91:28:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[KPlaybackNode[m[K’
+[3.591s]    91 |     : std::aligned_storage<[01;31m[Ksizeof(_Tp)[m[K, __alignof__(_Tp)>
+[3.591s]       |                            [01;31m[K^~~~~~~~~~~[m[K
+[3.591s] [01m[K/usr/include/c++/11/ext/aligned_buffer.h:91:28:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[KPlaybackNode[m[K’
+[3.776s] gmake[2]: *** [CMakeFiles/bag_analyzer.dir/build.make:76: CMakeFiles/bag_analyzer.dir/src/bag_analyzer.cpp.o] Error 1
+[3.777s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bag_analyzer.dir/all] Error 2
+[3.777s] gmake: *** [Makefile:146: all] Error 2
+[3.780s] Invoked command in '/home/macar/ros2/build/custom_bag_analysis' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/macar/ros2/build/custom_bag_analysis -- -j12 -l12

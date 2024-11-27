@@ -1,0 +1,23 @@
+[0.011s] Invoking command in '/home/macar/ros2/build/bag_analysis': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/macar/ros2/src/bag_analysis -DCMAKE_INSTALL_PREFIX=/home/macar/ros2/install/bag_analysis
+[0.023s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.150s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.156s] -- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)
+[0.182s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.190s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.201s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.215s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.356s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.357s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.478s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.633s] -- Found rosbag2_cpp: 0.22.7 (/opt/ros/iron/share/rosbag2_cpp/cmake)
+[0.661s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[0.856s] [31mCMake Error at /opt/ros/iron/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake:67 (message):
+[0.856s]   ament_cmake_symlink_install_targets() 'analyze_bag' is not a target
+[0.856s] Call Stack (most recent call first):
+[0.857s]   /opt/ros/iron/share/ament_cmake_core/cmake/symlink_install/install.cmake:37 (ament_cmake_symlink_install_targets)
+[0.857s]   CMakeLists.txt:21 (install)
+[0.857s] 
+[0.857s] [0m
+[0.857s] -- Configuring incomplete, errors occurred!
+[0.857s] See also "/home/macar/ros2/build/bag_analysis/CMakeFiles/CMakeOutput.log".
+[0.864s] Invoked command in '/home/macar/ros2/build/bag_analysis' returned '1': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/macar/ros2/src/bag_analysis -DCMAKE_INSTALL_PREFIX=/home/macar/ros2/install/bag_analysis

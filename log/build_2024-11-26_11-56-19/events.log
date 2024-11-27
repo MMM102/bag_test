@@ -1,0 +1,145 @@
+[0.000000] (-) TimerEvent: {}
+[0.000361] (bag_analysis) JobQueued: {'identifier': 'bag_analysis', 'dependencies': OrderedDict()}
+[0.000435] (custom_bag_analysis) JobQueued: {'identifier': 'custom_bag_analysis', 'dependencies': OrderedDict()}
+[0.000478] (bag_analysis) JobStarted: {'identifier': 'bag_analysis'}
+[0.010539] (custom_bag_analysis) JobStarted: {'identifier': 'custom_bag_analysis'}
+[0.018674] (bag_analysis) JobProgress: {'identifier': 'bag_analysis', 'progress': 'cmake'}
+[0.020985] (bag_analysis) JobProgress: {'identifier': 'bag_analysis', 'progress': 'build'}
+[0.021050] (bag_analysis) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/macar/ros2/build/bag_analysis', '--', '-j12', '-l12'], 'cwd': '/home/macar/ros2/build/bag_analysis', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'macar'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/macar'), ('OLDPWD', '/home/macar/ros2/src/custom_bag_analysis/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '5825'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'macar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'macar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/macar:@/tmp/.ICE-unix/1096,unix/macar:/tmp/.ICE-unix/1096'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/288032eb_b963_45ca_91c8_7be5af4912d9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3Z9OX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.145'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/macar/ros2/build/bag_analysis'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.026970] (custom_bag_analysis) JobProgress: {'identifier': 'custom_bag_analysis', 'progress': 'cmake'}
+[0.028279] (custom_bag_analysis) JobProgress: {'identifier': 'custom_bag_analysis', 'progress': 'build'}
+[0.029720] (custom_bag_analysis) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/macar/ros2/build/custom_bag_analysis', '--', '-j12', '-l12'], 'cwd': '/home/macar/ros2/build/custom_bag_analysis', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'macar'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/macar'), ('OLDPWD', '/home/macar/ros2/src/custom_bag_analysis/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '5825'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'macar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'macar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/macar:@/tmp/.ICE-unix/1096,unix/macar:/tmp/.ICE-unix/1096'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/288032eb_b963_45ca_91c8_7be5af4912d9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3Z9OX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.145'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/macar/ros2/build/custom_bag_analysis'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.098825] (-) TimerEvent: {}
+[0.140370] (custom_bag_analysis) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target bag_analyzer\x1b[0m\n'}
+[0.167334] (bag_analysis) StdoutLine: {'line': b'[100%] Built target analyzing_bag\n'}
+[0.187847] (bag_analysis) CommandEnded: {'returncode': 0}
+[0.199005] (-) TimerEvent: {}
+[0.202879] (custom_bag_analysis) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/bag_analyzer.dir/src/bag_analyzer.cpp.o\x1b[0m\n'}
+[0.234685] (bag_analysis) JobProgress: {'identifier': 'bag_analysis', 'progress': 'install'}
+[0.250258] (bag_analysis) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/macar/ros2/build/bag_analysis'], 'cwd': '/home/macar/ros2/build/bag_analysis', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'macar'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/macar'), ('OLDPWD', '/home/macar/ros2/src/custom_bag_analysis/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '5825'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'macar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'macar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/macar:@/tmp/.ICE-unix/1096,unix/macar:/tmp/.ICE-unix/1096'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/288032eb_b963_45ca_91c8_7be5af4912d9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3Z9OX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.145'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/macar/ros2/build/bag_analysis'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.262217] (bag_analysis) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.263220] (bag_analysis) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.264048] (bag_analysis) StdoutLine: {'line': b'-- Up-to-date symlink: /home/macar/ros2/install/bag_analysis/lib/bag_analysis/analyzing_bag\n'}
+[0.264971] (bag_analysis) StdoutLine: {'line': b'-- Up-to-date symlink: /home/macar/ros2/install/bag_analysis/share/ament_index/resource_index/package_run_dependencies/bag_analysis\n'}
+[0.265294] (bag_analysis) StdoutLine: {'line': b'-- Up-to-date symlink: /home/macar/ros2/install/bag_analysis/share/ament_index/resource_index/parent_prefix_path/bag_analysis\n'}
+[0.265715] (bag_analysis) StdoutLine: {'line': b'-- Up-to-date symlink: /home/macar/ros2/install/bag_analysis/share/bag_analysis/environment/ament_prefix_path.sh\n'}
+[0.265979] (bag_analysis) StdoutLine: {'line': b'-- Up-to-date symlink: /home/macar/ros2/install/bag_analysis/share/bag_analysis/environment/ament_prefix_path.dsv\n'}
+[0.266294] (bag_analysis) StdoutLine: {'line': b'-- Up-to-date symlink: /home/macar/ros2/install/bag_analysis/share/bag_analysis/environment/path.sh\n'}
+[0.266545] (bag_analysis) StdoutLine: {'line': b'-- Up-to-date symlink: /home/macar/ros2/install/bag_analysis/share/bag_analysis/environment/path.dsv\n'}
+[0.266814] (bag_analysis) StdoutLine: {'line': b'-- Up-to-date symlink: /home/macar/ros2/install/bag_analysis/share/bag_analysis/local_setup.bash\n'}
+[0.267070] (bag_analysis) StdoutLine: {'line': b'-- Up-to-date symlink: /home/macar/ros2/install/bag_analysis/share/bag_analysis/local_setup.sh\n'}
+[0.267295] (bag_analysis) StdoutLine: {'line': b'-- Up-to-date symlink: /home/macar/ros2/install/bag_analysis/share/bag_analysis/local_setup.zsh\n'}
+[0.267567] (bag_analysis) StdoutLine: {'line': b'-- Up-to-date symlink: /home/macar/ros2/install/bag_analysis/share/bag_analysis/local_setup.dsv\n'}
+[0.267714] (bag_analysis) StdoutLine: {'line': b'-- Symlinking: /home/macar/ros2/install/bag_analysis/share/bag_analysis/package.dsv\n'}
+[0.283332] (bag_analysis) StdoutLine: {'line': b'-- Up-to-date symlink: /home/macar/ros2/install/bag_analysis/share/ament_index/resource_index/packages/bag_analysis\n'}
+[0.283761] (bag_analysis) StdoutLine: {'line': b'-- Up-to-date symlink: /home/macar/ros2/install/bag_analysis/share/bag_analysis/cmake/bag_analysisConfig.cmake\n'}
+[0.284183] (bag_analysis) StdoutLine: {'line': b'-- Up-to-date symlink: /home/macar/ros2/install/bag_analysis/share/bag_analysis/cmake/bag_analysisConfig-version.cmake\n'}
+[0.284471] (bag_analysis) StdoutLine: {'line': b'-- Up-to-date symlink: /home/macar/ros2/install/bag_analysis/share/bag_analysis/package.xml\n'}
+[0.288558] (bag_analysis) CommandEnded: {'returncode': 0}
+[0.299265] (-) TimerEvent: {}
+[0.361301] (bag_analysis) JobEnded: {'identifier': 'bag_analysis', 'rc': 0}
+[0.399426] (-) TimerEvent: {}
+[0.499940] (-) TimerEvent: {}
+[0.600500] (-) TimerEvent: {}
+[0.701031] (-) TimerEvent: {}
+[0.801589] (-) TimerEvent: {}
+[0.902122] (-) TimerEvent: {}
+[1.002663] (-) TimerEvent: {}
+[1.103217] (-) TimerEvent: {}
+[1.203817] (-) TimerEvent: {}
+[1.304374] (-) TimerEvent: {}
+[1.404929] (-) TimerEvent: {}
+[1.505506] (-) TimerEvent: {}
+[1.606067] (-) TimerEvent: {}
+[1.706643] (-) TimerEvent: {}
+[1.807196] (-) TimerEvent: {}
+[1.907968] (-) TimerEvent: {}
+[2.008575] (-) TimerEvent: {}
+[2.109099] (-) TimerEvent: {}
+[2.209676] (-) TimerEvent: {}
+[2.310184] (-) TimerEvent: {}
+[2.410633] (-) TimerEvent: {}
+[2.511071] (-) TimerEvent: {}
+[2.611524] (-) TimerEvent: {}
+[2.711933] (-) TimerEvent: {}
+[2.812300] (-) TimerEvent: {}
+[2.912720] (-) TimerEvent: {}
+[3.013132] (-) TimerEvent: {}
+[3.113593] (-) TimerEvent: {}
+[3.214034] (-) TimerEvent: {}
+[3.314490] (-) TimerEvent: {}
+[3.414932] (-) TimerEvent: {}
+[3.515356] (-) TimerEvent: {}
+[3.615785] (-) TimerEvent: {}
+[3.716200] (-) TimerEvent: {}
+[3.816649] (-) TimerEvent: {}
+[3.917084] (-) TimerEvent: {}
+[4.017562] (-) TimerEvent: {}
+[4.117981] (-) TimerEvent: {}
+[4.218438] (-) TimerEvent: {}
+[4.318859] (-) TimerEvent: {}
+[4.362689] (custom_bag_analysis) StderrLine: {'line': b'\x1b[01m\x1b[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:51:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kzed\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.362914] (custom_bag_analysis) StderrLine: {'line': b'   51 |     rclcpp::Publisher<\x1b[01;31m\x1b[Kzed\x1b[m\x1b[K::msg::Imu>::SharedPtr publisher_;\n'}
+[4.362988] (custom_bag_analysis) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.363111] (custom_bag_analysis) StderrLine: {'line': b'\x1b[01m\x1b[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:51:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.363452] (custom_bag_analysis) StderrLine: {'line': b'   51 |     rclcpp::Publisher<zed::msg::Imu\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_;\n'}
+[4.363626] (custom_bag_analysis) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.363757] (custom_bag_analysis) StderrLine: {'line': b'\x1b[01m\x1b[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:51:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[4.363886] (custom_bag_analysis) StderrLine: {'line': b'   51 |     rclcpp::Publisher<zed::msg::Imu>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[4.364015] (custom_bag_analysis) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.364140] (custom_bag_analysis) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[4.365604] (custom_bag_analysis) StderrLine: {'line': b'\x1b[01m\x1b[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:51:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.365728] (custom_bag_analysis) StderrLine: {'line': b'   51 |     rclcpp::Publisher<zed::msg::Imu>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[4.365810] (custom_bag_analysis) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.365877] (custom_bag_analysis) StderrLine: {'line': b'      |                                                 \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[4.371622] (custom_bag_analysis) StderrLine: {'line': b'\x1b[01m\x1b[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:53:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kzed\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.371834] (custom_bag_analysis) StderrLine: {'line': b'   53 |     rclcpp::Serialization<\x1b[01;31m\x1b[Kzed\x1b[m\x1b[K::msg::Imu> serialization_;\n'}
+[4.371971] (custom_bag_analysis) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.372097] (custom_bag_analysis) StderrLine: {'line': b'\x1b[01m\x1b[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:53:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.372223] (custom_bag_analysis) StderrLine: {'line': b'   53 |     rclcpp::Serialization<zed::msg::Imu\x1b[01;31m\x1b[K>\x1b[m\x1b[K serialization_;\n'}
+[4.372380] (custom_bag_analysis) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.379290] (custom_bag_analysis) StderrLine: {'line': b'\x1b[01m\x1b[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:55:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[4.379517] (custom_bag_analysis) StderrLine: {'line': b'   55 | }\n'}
+[4.379653] (custom_bag_analysis) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.379776] (custom_bag_analysis) StderrLine: {'line': b'      |  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[4.387670] (custom_bag_analysis) StderrLine: {'line': b'\x1b[01m\x1b[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KPlaybackNode::PlaybackNode(const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.387883] (custom_bag_analysis) StderrLine: {'line': b'\x1b[01m\x1b[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:21:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.388024] (custom_bag_analysis) StderrLine: {'line': b'   21 |       \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<sensor_msgs::msg::Imu>("sensor_msgs/msg/Imu", 10);\n'}
+[4.388152] (custom_bag_analysis) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.388298] (custom_bag_analysis) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[4.404997] (custom_bag_analysis) StderrLine: {'line': b'\x1b[01m\x1b[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PlaybackNode::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.405209] (custom_bag_analysis) StderrLine: {'line': b'\x1b[01m\x1b[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:33:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rosbag2_cpp::Reader\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Knext\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.405391] (custom_bag_analysis) StderrLine: {'line': b'   33 |   rosbag2_storage::SerializedBagMessageSharedPtr msg = reader_->\x1b[01;31m\x1b[Knext\x1b[m\x1b[K();\n'}
+[4.405667] (custom_bag_analysis) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.405801] (custom_bag_analysis) StderrLine: {'line': b'\n'}
+[4.405924] (custom_bag_analysis) StderrLine: {'line': b'\x1b[01m\x1b[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:40:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kzed\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.406080] (custom_bag_analysis) StderrLine: {'line': b'   40 |         \x1b[01;31m\x1b[Kzed\x1b[m\x1b[K::msg::Imu::SharedPtr ros_msg = std::make_shared<zed::msg::Imu>();\n'}
+[4.406205] (custom_bag_analysis) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.406355] (custom_bag_analysis) StderrLine: {'line': b'\x1b[01m\x1b[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:42:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kdeserialize_message\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((PlaybackNode*)this)->PlaybackNode::serialization_\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.406505] (custom_bag_analysis) StderrLine: {'line': b'   42 |         serialization_.\x1b[01;31m\x1b[Kdeserialize_message\x1b[m\x1b[K(&serialized_msg, ros_msg.get());\n'}
+[4.406627] (custom_bag_analysis) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.413018] (custom_bag_analysis) StderrLine: {'line': b'\x1b[01m\x1b[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:42:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros_msg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.413247] (custom_bag_analysis) StderrLine: {'line': b'   42 |         serialization_.deserialize_message(&serialized_msg, \x1b[01;31m\x1b[Kros_msg\x1b[m\x1b[K.get());\n'}
+[4.413402] (custom_bag_analysis) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.418970] (-) TimerEvent: {}
+[4.421069] (custom_bag_analysis) StderrLine: {'line': b'\x1b[01m\x1b[K/home/macar/ros2/src/custom_bag_analysis/src/bag_analyzer.cpp:44:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.421300] (custom_bag_analysis) StderrLine: {'line': b'   44 |         \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(*ros_msg);\n'}
+[4.421450] (custom_bag_analysis) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.421577] (custom_bag_analysis) StderrLine: {'line': b'      |         \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[4.519131] (-) TimerEvent: {}
+[4.619590] (-) TimerEvent: {}
+[4.720010] (-) TimerEvent: {}
+[4.820479] (-) TimerEvent: {}
+[4.920891] (-) TimerEvent: {}
+[5.021321] (-) TimerEvent: {}
+[5.121729] (-) TimerEvent: {}
+[5.222149] (-) TimerEvent: {}
+[5.322585] (-) TimerEvent: {}
+[5.423013] (-) TimerEvent: {}
+[5.503644] (custom_bag_analysis) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/bag_analyzer.dir/build.make:76: CMakeFiles/bag_analyzer.dir/src/bag_analyzer.cpp.o] Error 1\n'}
+[5.504448] (custom_bag_analysis) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bag_analyzer.dir/all] Error 2\n'}
+[5.505131] (custom_bag_analysis) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.509307] (custom_bag_analysis) CommandEnded: {'returncode': 2}
+[5.523162] (-) TimerEvent: {}
+[5.556618] (custom_bag_analysis) JobEnded: {'identifier': 'custom_bag_analysis', 'rc': 2}
+[5.567203] (-) EventReactorShutdown: {}

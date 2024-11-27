@@ -1,0 +1,26 @@
+[0.010s] Invoking command in '/home/macar/ros2/build/bag_analysis': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/macar/ros2/build/bag_analysis -- -j12 -l12
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target experiment_3_analysis[0m
+[0.072s] [ 50%] [32mBuilding CXX object CMakeFiles/experiment_3_analysis.dir/src/experiment_3_analysis.cpp.o[0m
+[1.319s] [100%] [32m[1mLinking CXX executable experiment_3_analysis[0m
+[1.497s] [100%] Built target experiment_3_analysis
+[1.511s] Invoked command in '/home/macar/ros2/build/bag_analysis' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/macar/ros2/build/bag_analysis -- -j12 -l12
+[1.552s] Invoking command in '/home/macar/ros2/build/bag_analysis': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/macar/ros2/build/bag_analysis
+[1.558s] -- Install configuration: ""
+[1.559s] -- Execute custom install script
+[1.559s] -- Symlinking: /home/macar/ros2/install/bag_analysis/lib/bag_analysis/experiment_3_analysis
+[1.569s] -- Symlinking: /home/macar/ros2/install/bag_analysis/share/ament_index/resource_index/package_run_dependencies/bag_analysis
+[1.579s] -- Symlinking: /home/macar/ros2/install/bag_analysis/share/ament_index/resource_index/parent_prefix_path/bag_analysis
+[1.590s] -- Symlinking: /home/macar/ros2/install/bag_analysis/share/bag_analysis/environment/ament_prefix_path.sh
+[1.601s] -- Symlinking: /home/macar/ros2/install/bag_analysis/share/bag_analysis/environment/ament_prefix_path.dsv
+[1.612s] -- Symlinking: /home/macar/ros2/install/bag_analysis/share/bag_analysis/environment/path.sh
+[1.622s] -- Symlinking: /home/macar/ros2/install/bag_analysis/share/bag_analysis/environment/path.dsv
+[1.631s] -- Symlinking: /home/macar/ros2/install/bag_analysis/share/bag_analysis/local_setup.bash
+[1.643s] -- Symlinking: /home/macar/ros2/install/bag_analysis/share/bag_analysis/local_setup.sh
+[1.653s] -- Symlinking: /home/macar/ros2/install/bag_analysis/share/bag_analysis/local_setup.zsh
+[1.663s] -- Symlinking: /home/macar/ros2/install/bag_analysis/share/bag_analysis/local_setup.dsv
+[1.675s] -- Symlinking: /home/macar/ros2/install/bag_analysis/share/bag_analysis/package.dsv
+[1.686s] -- Symlinking: /home/macar/ros2/install/bag_analysis/share/ament_index/resource_index/packages/bag_analysis
+[1.696s] -- Symlinking: /home/macar/ros2/install/bag_analysis/share/bag_analysis/cmake/bag_analysisConfig.cmake
+[1.707s] -- Symlinking: /home/macar/ros2/install/bag_analysis/share/bag_analysis/cmake/bag_analysisConfig-version.cmake
+[1.718s] -- Symlinking: /home/macar/ros2/install/bag_analysis/share/bag_analysis/package.xml
+[1.731s] Invoked command in '/home/macar/ros2/build/bag_analysis' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/macar/ros2/build/bag_analysis

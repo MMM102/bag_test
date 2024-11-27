@@ -1,0 +1,33 @@
+[0.011s] Invoking command in '/home/macar/ros2/build/custom_bag_analysis': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/macar/ros2/src/custom_bag_analysis -DCMAKE_INSTALL_PREFIX=/home/macar/ros2/install/custom_bag_analysis
+[0.021s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.169s] -- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)
+[0.213s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.226s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.243s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.263s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.424s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.427s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.561s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.590s] -- Found FastRTPS: /opt/ros/iron/include  
+[0.636s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.805s] -- Found rosbag2_transport: 0.22.7 (/opt/ros/iron/share/rosbag2_transport/cmake)
+[1.009s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[1.009s]   By not providing "Findsensor_msg.cmake" in CMAKE_MODULE_PATH this project
+[1.009s]   has asked CMake to find a package configuration file provided by
+[1.009s]   "sensor_msg", but CMake did not find one.
+[1.009s] 
+[1.009s]   Could not find a package configuration file provided by "sensor_msg" with
+[1.009s]   any of the following names:
+[1.009s] 
+[1.009s]     sensor_msgConfig.cmake
+[1.010s]     sensor_msg-config.cmake
+[1.010s] 
+[1.010s]   Add the installation prefix of "sensor_msg" to CMAKE_PREFIX_PATH or set
+[1.010s]   "sensor_msg_DIR" to a directory containing one of the above files.  If
+[1.010s]   "sensor_msg" provides a separate development package or SDK, be sure it has
+[1.010s]   been installed.
+[1.010s] 
+[1.010s] [0m
+[1.010s] -- Configuring incomplete, errors occurred!
+[1.010s] See also "/home/macar/ros2/build/custom_bag_analysis/CMakeFiles/CMakeOutput.log".
+[1.016s] Invoked command in '/home/macar/ros2/build/custom_bag_analysis' returned '1': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/macar/ros2/src/custom_bag_analysis -DCMAKE_INSTALL_PREFIX=/home/macar/ros2/install/custom_bag_analysis

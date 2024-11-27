@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target experiment_3_analysis[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/experiment_3_analysis.dir/src/experiment_3_analysis.cpp.o[0m
+[100%] [32m[1mLinking CXX executable experiment_3_analysis[0m
+[100%] Built target experiment_3_analysis
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/macar/ros2/install/bag_analysis/lib/bag_analysis/experiment_3_analysis
+-- Symlinking: /home/macar/ros2/install/bag_analysis/share/ament_index/resource_index/package_run_dependencies/bag_analysis
+-- Symlinking: /home/macar/ros2/install/bag_analysis/share/ament_index/resource_index/parent_prefix_path/bag_analysis
+-- Symlinking: /home/macar/ros2/install/bag_analysis/share/bag_analysis/environment/ament_prefix_path.sh
+-- Symlinking: /home/macar/ros2/install/bag_analysis/share/bag_analysis/environment/ament_prefix_path.dsv
+-- Symlinking: /home/macar/ros2/install/bag_analysis/share/bag_analysis/environment/path.sh
+-- Symlinking: /home/macar/ros2/install/bag_analysis/share/bag_analysis/environment/path.dsv
+-- Symlinking: /home/macar/ros2/install/bag_analysis/share/bag_analysis/local_setup.bash
+-- Symlinking: /home/macar/ros2/install/bag_analysis/share/bag_analysis/local_setup.sh
+-- Symlinking: /home/macar/ros2/install/bag_analysis/share/bag_analysis/local_setup.zsh
+-- Symlinking: /home/macar/ros2/install/bag_analysis/share/bag_analysis/local_setup.dsv
+-- Symlinking: /home/macar/ros2/install/bag_analysis/share/bag_analysis/package.dsv
+-- Symlinking: /home/macar/ros2/install/bag_analysis/share/ament_index/resource_index/packages/bag_analysis
+-- Symlinking: /home/macar/ros2/install/bag_analysis/share/bag_analysis/cmake/bag_analysisConfig.cmake
+-- Symlinking: /home/macar/ros2/install/bag_analysis/share/bag_analysis/cmake/bag_analysisConfig-version.cmake
+-- Symlinking: /home/macar/ros2/install/bag_analysis/share/bag_analysis/package.xml

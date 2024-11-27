@@ -1,0 +1,35 @@
+[0.011s] Invoking command in '/home/macar/ros2/build/custom_bag_analysis': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/macar/ros2/src/custom_bag_analysis -DCMAKE_INSTALL_PREFIX=/home/macar/ros2/install/custom_bag_analysis
+[0.099s] -- The C compiler identification is GNU 11.4.0
+[0.162s] -- The CXX compiler identification is GNU 11.4.0
+[0.172s] -- Detecting C compiler ABI info
+[0.249s] -- Detecting C compiler ABI info - done
+[0.256s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.257s] -- Detecting C compile features
+[0.257s] -- Detecting C compile features - done
+[0.261s] -- Detecting CXX compiler ABI info
+[0.351s] -- Detecting CXX compiler ABI info - done
+[0.358s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.359s] -- Detecting CXX compile features
+[0.359s] -- Detecting CXX compile features - done
+[0.363s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.517s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.637s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.637s]   By not providing "Findrclpp.cmake" in CMAKE_MODULE_PATH this project has
+[0.637s]   asked CMake to find a package configuration file provided by "rclpp", but
+[0.637s]   CMake did not find one.
+[0.637s] 
+[0.637s]   Could not find a package configuration file provided by "rclpp" with any of
+[0.638s]   the following names:
+[0.638s] 
+[0.638s]     rclppConfig.cmake
+[0.638s]     rclpp-config.cmake
+[0.638s] 
+[0.638s]   Add the installation prefix of "rclpp" to CMAKE_PREFIX_PATH or set
+[0.638s]   "rclpp_DIR" to a directory containing one of the above files.  If "rclpp"
+[0.638s]   provides a separate development package or SDK, be sure it has been
+[0.638s]   installed.
+[0.638s] 
+[0.638s] [0m
+[0.638s] -- Configuring incomplete, errors occurred!
+[0.638s] See also "/home/macar/ros2/build/custom_bag_analysis/CMakeFiles/CMakeOutput.log".
+[0.642s] Invoked command in '/home/macar/ros2/build/custom_bag_analysis' returned '1': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/macar/ros2/src/custom_bag_analysis -DCMAKE_INSTALL_PREFIX=/home/macar/ros2/install/custom_bag_analysis

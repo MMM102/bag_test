@@ -1,0 +1,4 @@
+source;share/bag_analysis/local_setup.bash
+source;share/bag_analysis/local_setup.dsv
+source;share/bag_analysis/local_setup.sh
+source;share/bag_analysis/local_setup.zsh

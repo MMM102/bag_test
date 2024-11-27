@@ -1,0 +1,13 @@
+[0.011s] Invoking command in '/home/macar/ros2/build/bag_analysis': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/macar/ros2/src/bag_analysis -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/macar/ros2/install/bag_analysis
+[0.021s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.148s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.154s] [31mCMake Error at /opt/ros/iron/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.154s]   ament_target_dependencies() the passed package name 'rclcpp' was not found
+[0.154s]   before
+[0.154s] Call Stack (most recent call first):
+[0.155s]   CMakeLists.txt:14 (ament_target_dependencies)
+[0.155s] 
+[0.155s] [0m
+[0.155s] -- Configuring incomplete, errors occurred!
+[0.155s] See also "/home/macar/ros2/build/bag_analysis/CMakeFiles/CMakeOutput.log".
+[0.157s] Invoked command in '/home/macar/ros2/build/bag_analysis' returned '1': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/macar/ros2/src/bag_analysis -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/macar/ros2/install/bag_analysis

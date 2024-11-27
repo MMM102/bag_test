@@ -1,0 +1,5 @@
+source;share/custom_bag_analysis/local_setup.bash
+source;share/custom_bag_analysis/local_setup.dsv
+source;share/custom_bag_analysis/local_setup.ps1
+source;share/custom_bag_analysis/local_setup.sh
+source;share/custom_bag_analysis/local_setup.zsh

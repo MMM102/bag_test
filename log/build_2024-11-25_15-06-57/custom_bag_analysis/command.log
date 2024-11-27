@@ -1,0 +1,2 @@
+Invoking command in '/home/macar/ros2/build/custom_bag_analysis': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/macar/ros2/src/custom_bag_analysis -DCMAKE_INSTALL_PREFIX=/home/macar/ros2/install/custom_bag_analysis
+Invoked command in '/home/macar/ros2/build/custom_bag_analysis' returned '1': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/macar/ros2/src/custom_bag_analysis -DCMAKE_INSTALL_PREFIX=/home/macar/ros2/install/custom_bag_analysis

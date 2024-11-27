@@ -1,0 +1,4 @@
+-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring incomplete, errors occurred!
+See also "/home/macar/ros2/build/bag_analysis/CMakeFiles/CMakeOutput.log".

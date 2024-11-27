@@ -1,0 +1,52 @@
+[01m[K/home/macar/ros2/src/bag_analysis/src/experiment_3_analysis.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/macar/ros2/src/bag_analysis/src/experiment_3_analysis.cpp:30:17:[m[K [01;31m[Kerror: [m[K‘[01m[KTime[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[Kbuiltin_interfaces::msg::Time[m[K’?
+   30 |         rclcpp::[01;31m[KTime[m[K first_msg_time(0, 0);
+      |                 [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+                 from [01m[K/home/macar/ros2/src/bag_analysis/src/experiment_3_analysis.cpp:7[m[K:
+[01m[K/opt/ros/iron/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:136:7:[m[K [01;36m[Knote: [m[K‘[01m[Kbuiltin_interfaces::msg::Time[m[K’ declared here
+  136 | using [01;36m[KTime[m[K =
+      |       [01;36m[K^~~~[m[K
+[01m[K/home/macar/ros2/src/bag_analysis/src/experiment_3_analysis.cpp:31:17:[m[K [01;31m[Kerror: [m[K‘[01m[KTime[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[Kbuiltin_interfaces::msg::Time[m[K’?
+   31 |         rclcpp::[01;31m[KTime[m[K last_msg_time(0, 0);
+      |                 [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+                 from [01m[K/home/macar/ros2/src/bag_analysis/src/experiment_3_analysis.cpp:7[m[K:
+[01m[K/opt/ros/iron/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:136:7:[m[K [01;36m[Knote: [m[K‘[01m[Kbuiltin_interfaces::msg::Time[m[K’ declared here
+  136 | using [01;36m[KTime[m[K =
+      |       [01;36m[K^~~~[m[K
+[01m[K/home/macar/ros2/src/bag_analysis/src/experiment_3_analysis.cpp:49:25:[m[K [01;31m[Kerror: [m[K‘[01m[KTime[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[Kbuiltin_interfaces::msg::Time[m[K’?
+   49 |                 rclcpp::[01;31m[KTime[m[K current_time(imu_msg->header.stamp);
+      |                         [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+                 from [01m[K/home/macar/ros2/src/bag_analysis/src/experiment_3_analysis.cpp:7[m[K:
+[01m[K/opt/ros/iron/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:136:7:[m[K [01;36m[Knote: [m[K‘[01m[Kbuiltin_interfaces::msg::Time[m[K’ declared here
+  136 | using [01;36m[KTime[m[K =
+      |       [01;36m[K^~~~[m[K
+[01m[K/home/macar/ros2/src/bag_analysis/src/experiment_3_analysis.cpp:51:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kfirst_msg_time[m[K’ was not declared in this scope
+   51 |                     [01;31m[Kfirst_msg_time[m[K = current_time;
+      |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/macar/ros2/src/bag_analysis/src/experiment_3_analysis.cpp:51:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_time[m[K’ was not declared in this scope
+   51 |                     first_msg_time = [01;31m[Kcurrent_time[m[K;
+      |                                      [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/macar/ros2/src/bag_analysis/src/experiment_3_analysis.cpp:53:17:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_msg_time[m[K’ was not declared in this scope
+   53 |                 [01;31m[Klast_msg_time[m[K = current_time;
+      |                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/macar/ros2/src/bag_analysis/src/experiment_3_analysis.cpp:53:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_time[m[K’ was not declared in this scope
+   53 |                 last_msg_time = [01;31m[Kcurrent_time[m[K;
+      |                                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/macar/ros2/src/bag_analysis/src/experiment_3_analysis.cpp:61:23:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_msg_time[m[K’ was not declared in this scope
+   61 |         total_time = ([01;31m[Klast_msg_time[m[K - first_msg_time).seconds();
+      |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/macar/ros2/src/bag_analysis/src/experiment_3_analysis.cpp:61:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kfirst_msg_time[m[K’ was not declared in this scope
+   61 |         total_time = (last_msg_time - [01;31m[Kfirst_msg_time[m[K).seconds();
+      |                                       [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/experiment_3_analysis.dir/build.make:76: CMakeFiles/experiment_3_analysis.dir/src/experiment_3_analysis.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/experiment_3_analysis.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
